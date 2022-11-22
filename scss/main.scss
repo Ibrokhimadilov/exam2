@@ -1,0 +1,2357 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,600&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.about_us {
+    width: 100%;
+    display: flex;
+
+    .about_us-text {
+        width: 610px;
+        margin-left: 100px;
+        margin-top: 190px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 52px;
+            line-height: 125%;
+            color: #6B6B6C;
+        }
+
+        p {
+            font-family: 'PT Sans';
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            width: 525px;
+        }
+
+        button {
+            border: none;
+            border-bottom: 3px solid yellow;
+            background-color: white;
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            color: #363738;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    .about_us-picture {
+        background-color: #0B7572;
+        height: 787px;
+        width: 832px;
+        position: relative;
+        margin-left: 219px;
+
+        .about_us-img {
+            margin-top: 190px;
+            position: absolute;
+            left: -22.7%;
+        }
+    }
+}
+
+.about_us-bottom {
+    display: grid;
+    grid-template-columns: 228px 228px 228px;
+    grid-template-rows: 176px;
+    gap: 185px;
+    width: 1240px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    height: 341px;
+
+    .card {
+        margin-left: 80px;
+
+        img {
+            margin-top: 40px;
+            margin-bottom: 24px;
+        }
+
+        .card-text {
+            width: 225px;
+
+            p {
+                font-family: 'Exo 2';
+                margin-bottom: 16px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 135%;
+                color: #363738;
+            }
+
+            small {
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #6B6B6C;
+            }
+        }
+    }
+}
+
+.where_you_work {
+    margin-top: 100px;
+
+    h1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+    }
+
+    p {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        width: 667px;
+    }
+
+    .radiotable_box {
+        display: flex;
+
+        .radiotable_numbers {
+            width: 281px;
+            margin-left: 140px;
+            margin-top: 90px;
+
+            .radiotable_button {
+                display: flex;
+                flex-wrap: wrap;
+                width: 281px;
+
+                p {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 54px;
+                    color: #363738;
+                    width: auto;
+                }
+
+                small {
+                    margin-top: 50px;
+                }
+
+                .underline {
+                    width: 281px;
+                    height: 3px;
+                    background-color: yellow;
+                    border: 3px solid yellow;
+                }
+            }
+        }
+
+        .work_radiotable {
+            .card {
+                display: flex;
+                margin-top: 40px;
+                width: 687px;
+                box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+                border-radius: 10px;
+                margin-left: 100px;
+
+                input {
+                    margin-left: 40px;
+                }
+
+                .card_text {
+                    margin-left: 32px;
+                    width: 466px;
+                    margin-bottom: 48px;
+
+                    p {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 150%;
+                        color: #363738;
+                        margin-bottom: 24px;
+                    }
+
+                    small {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.why_with_me {
+    background-image: url("/img/Rectangle7.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 1341px;
+    height: 453px;
+    margin-right: 180px;
+    position: relative;
+    margin-top: 100px;
+
+    h1 {
+        position: absolute;
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #FFFFFF;
+        z-index: 9999;
+        width: 362px;
+        top: 40%;
+        left: 10%;
+    }
+}
+
+.why_with_me-bottom {
+    h1 {
+        display: none;
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 125%;
+        color: #363738;
+    }
+
+    .card_box {
+        margin-top: 72px;
+        margin-left: 164px;
+        display: grid;
+        grid-template-columns: 447px 447px;
+        gap: 64px 176px;
+
+        .card {
+            display: flex;
+
+            .card_text {
+                margin-left: 40px;
+
+                p {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 135%;
+                    color: #363738;
+                    margin-bottom: 16px;
+                }
+
+                small {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+}
+
+.do_work {
+    margin-left: 100px;
+    margin-top: 122px;
+
+    h1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+    }
+
+    p {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        margin-top: 32px;
+        width: 500px;
+    }
+
+    .radio {
+        display: none;
+    }
+
+    .card_box {
+        display: flex;
+        gap: 30px;
+
+        .card {
+            margin-top: 56px;
+            width: 393px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+
+            .card-text {
+                margin-left: 32px;
+
+                strong {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 135%;
+                    color: #363738;
+                    margin-top: 24px;
+                }
+
+                p {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                    margin-top: 16px;
+                    width: 291px;
+                }
+
+                button {
+                    width: 92px;
+                    height: 17px;
+                    border: none;
+                    padding-bottom: 15px;
+                    border-bottom: 3px solid yellow;
+                    background-color: #FFFFFF;
+                    margin-top: 32px;
+                    margin-bottom: 42px;
+                }
+            }
+        }
+    }
+}
+
+.come_clients {
+    background-color: #0B7572;
+    height: 917px;
+    display: flex;
+    margin-bottom: 120px;
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 212px;
+    margin-bottom: 120px;
+
+    h1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #FFFFFF;
+        width: 447px;
+        margin-left: 81px;
+        margin-top: 100px;
+    }
+
+    .come_clients-table {
+        margin-top: 85px;
+
+        .come_clients-table-img1 {
+            display: none;
+        }
+    }
+}
+
+.delivery_stages {
+    h1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+        margin-left: 100px;
+    }
+
+    .card_box {
+        display: grid;
+        grid-template-rows: 245px 245px 245px;
+        gap: 24px;
+
+        .card {
+            display: flex;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+            margin-left: 49px;
+            max-width: 1183px;
+
+            img {
+                margin-left: 96px;
+                margin-top: 32px;
+            }
+
+            .card_text {
+                width: 568px;
+                margin-top: 32px;
+                margin-left: 56px;
+
+                strong {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 125%;
+                    color: #363738;
+                    display: inline-block;
+                }
+
+                .underline {
+                    width: 86px;
+                    height: 3px;
+                    background-color: yellow;
+                }
+
+                p {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+
+                }
+            }
+        }
+    }
+}
+
+.our_belivers {
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-bottom: 230px;
+
+    h1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+    }
+
+    .radio {
+        display: none;
+    }
+
+    .card_box {
+        display: grid;
+        grid-template-columns: 184px 184px 183px 183px;
+        grid-template-rows: 183px 183px;
+        gap: 80px 125px;
+        margin-left: 46px;
+
+        .line {
+            border: 1px solid #726b6b;
+            transform: rotate(90deg);
+            width: 183px;
+            height: 0px;
+            margin-top: 180px;
+            margin-left: 1003px;
+            margin-right: 73px;
+        }
+
+        .card {
+            max-width: 184px;
+            height: 183px;
+            margin-top: 90px;
+
+            img {
+                margin-left: 53px;
+            }
+
+            strong {
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 135%;
+                text-align: center;
+                color: #363738;
+                margin-left: 53px;
+                margin-top: 32px;
+                margin-bottom: 14px;
+                display: inline-block;
+            }
+
+            small {
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                text-align: center;
+                color: #6B6B6C;
+            }
+        }
+    }
+}
+
+.our_team {
+    h1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+        margin-bottom: 100px;
+    }
+
+    .card_box {
+        display: grid;
+        grid-template-columns: 605px 605px;
+        grid-template-rows: 210px 210px 210px;
+        gap: 24px 30px;
+        margin-left: 100px;
+
+        .card {
+            max-width: 605px;
+            display: flex;
+            height: 210px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+
+            .extreme_lane {
+                background: #0B7572;
+                height: 210px;
+                width: 51px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                margin-right: 32px;
+            }
+
+            .man {
+                width: 138px;
+                height: 138px;
+                margin-right: 40px;
+                margin-top: 32px;
+            }
+
+            .man_info {
+                margin-top: 47px;
+
+                .social_media {
+                    display: flex;
+                    gap: 21px;
+                }
+
+                strong {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #363738;
+                    margin-right: 172px;
+                }
+
+                small {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                }
+
+                .underline {
+                    border: 2px solid #FFCE50;
+                    width: 86px;
+                    height: 0px;
+                    background-color: yellow;
+                    border-radius: 5px;
+                    margin-top: 16px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+.our_contacts {
+    margin-left: 100px;
+    margin-top: 130px;
+
+    .about_us2 {
+        display: flex;
+
+        .about_us_main {
+            margin-right: 269px;
+            margin-top: 94px;
+
+            h1 {
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 125%;
+                color: #363738;
+                margin-bottom: 94px;
+            }
+
+            .card_box {
+                display: flex;
+                flex-direction: column;
+                gap: 44px 0;
+
+                .card {
+                    display: flex;
+                    max-width: 224px;
+
+                    a {
+                        display: flex;
+                        text-decoration: none;
+
+                        img {
+                            margin-right: 36px;
+                        }
+
+                        .card_text {
+                            small {
+                                font-family: 'PT Sans';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 150%;
+                                color: #6B6B6C;
+                            }
+
+                            p {
+                                font-family: 'Exo 2';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 24px;
+                                color: #363738;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .about_us_additional_info {
+            .additation_info_table {
+                table {
+                    background: #F9F9FB;
+                    border-radius: 5px;
+                    width: 794px;
+                    height: 383px;
+                    border-spacing: 63px;
+                    margin-top: 65px;
+
+                    tr {
+                        th {
+                            width: 443px;
+                            font-family: 'Exo 2';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 125%;
+                            color: #363738;
+                            border-bottom: 1px solid #e1e2e4;
+                        }
+
+                        td {
+                            font-family: 'PT Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 125%;
+                            color: #6B6B6C;
+                            border-bottom: 1px solid #e1e2e4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.video_about_work {
+    margin-top: 60px;
+    margin-left: 100px;
+
+    h1 {
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+        color: #363738;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #6B6B6C;
+        margin-bottom: 40px;
+        width: 848px;
+    }
+
+    .video {
+        position: relative;
+
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1140;
+            height: 621px;
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about_us {
+        width: 95%;
+        display: flex;
+
+        .about_us-text {
+            width: 470px;
+            margin-top: 190px;
+            margin-left: 0;
+            margin-top: 80px;
+
+            h1 {
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 44px;
+                line-height: 125%;
+                color: #363738;
+                width: 466px;
+            }
+
+            p {
+                font-family: 'PT Sans';
+                margin-top: 40px;
+                margin-bottom: 40px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #6B6B6C;
+                width: 523px;
+            }
+
+            button {
+                border: none;
+                border-bottom: 3px solid yellow;
+                background-color: white;
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                color: #363738;
+            }
+        }
+
+        .about_us-picture {
+            background-color: #0B7572;
+            height: 743px;
+            width: 120px;
+            position: relative;
+            transform: translateX(-200px);
+
+            .about_us-img {
+                margin-top: 190px;
+                position: absolute;
+                left: -350%;
+                bottom: -230px;
+                width: 690px;
+                height: 314px;
+                position: relative;
+
+                img {
+                    width: 500px;
+                    height: 314px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .about_us-bottom {
+        display: grid;
+        grid-template-columns: 690px;
+        grid-template-rows: 164px 164px 164px;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        height: 524px;
+        gap: 0;
+
+        .card {
+            margin-left: 0px;
+            display: flex;
+
+            img {
+                margin-top: 40px;
+                margin-bottom: 24px;
+                width: 92px;
+                height: 92px;
+            }
+
+            .card-text {
+                width: 349px;
+                margin-top: 39px;
+                margin-left: 32px;
+
+                p {
+                    font-family: 'Exo 2';
+                    margin-bottom: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 135%;
+                    color: #363738;
+                }
+
+                small {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+
+    .where_you_work {
+        margin-top: 100px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #363738;
+        }
+
+        p {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            width: 667px;
+        }
+
+        .radiotable_box {
+            display: flex;
+
+            .radiotable_numbers {
+                display: none;
+                width: 281px;
+                margin-left: 100px;
+                margin-top: 90px;
+
+                .radiotable_button {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 281px;
+
+                    p {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 54px;
+                        color: #363738;
+                        width: auto;
+                    }
+
+                    small {
+                        margin-top: 50px;
+                    }
+
+                    .underline {
+                        width: 281px;
+                        height: 3px;
+                        background-color: yellow;
+                        border: 3px solid yellow;
+                    }
+                }
+            }
+
+            .work_radiotable {
+                .card {
+                    display: flex;
+                    margin-top: 40px;
+                    width: 687px;
+                    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+                    border-radius: 10px;
+                    margin-left: 60px;
+
+                    input {
+                        margin-left: 40px;
+                    }
+
+                    .card_text {
+                        margin-left: 32px;
+                        width: 466px;
+                        margin-bottom: 48px;
+
+                        p {
+                            font-family: 'Exo 2';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #363738;
+                            margin-bottom: 24px;
+                        }
+
+                        small {
+                            font-family: 'PT Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #6B6B6C;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .why_with_me {
+        background-image: url("/img/Rectangle7.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+        height: 383px;
+        // margin-right: 180px;
+        position: relative;
+        margin-top: 100px;
+        background-position: left;
+        transform: translateX(-85px);
+
+        img {
+            width: 580px;
+            height: 383px;
+        }
+
+        h1 {
+            position: absolute;
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #FFFFFF;
+            z-index: 9999;
+            width: 362px;
+            top: 40%;
+            left: 10%;
+        }
+    }
+
+    .why_with_me-bottom {
+        margin-top: 72px;
+        display: grid;
+        grid-template-columns: 516px;
+        grid-template-rows: 88px 88px 88px 88px;
+        gap: 58px 0;
+        margin-left: 0px;
+
+        .card {
+            display: flex;
+            margin-left: 0;
+
+            .card_text {
+                margin-left: 0;
+
+                p {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 135%;
+                    color: #363738;
+                    margin-bottom: 16px;
+                }
+
+                small {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+
+    .do_work {
+        margin-left: 0px;
+        margin-top: 122px;
+        margin-left: 39px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #363738;
+            width: 768px;
+        }
+
+        p {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            margin-top: 32px;
+            width: 500px;
+        }
+
+        .card_box {
+            display: flex;
+            flex-direction: column;
+            gap: 30px 0;
+
+            .card3 {
+                display: none;
+            }
+
+            .card {
+                margin-top: 56px;
+                width: 690px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+                border-radius: 10px;
+
+                img {
+                    width: 690px;
+                }
+
+                .card-text {
+                    margin-left: 32px;
+
+                    strong {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 135%;
+                        color: #363738;
+                        margin-top: 24px;
+                    }
+
+                    p {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+                        margin-top: 16px;
+                        width: 520px;
+                    }
+
+                    button {
+                        width: 92px;
+                        height: 17px;
+                        border: none;
+                        padding-bottom: 15px;
+                        border-bottom: 3px solid yellow;
+                        background-color: #FFFFFF;
+                        margin-top: 32px;
+                        margin-bottom: 42px;
+                    }
+                }
+            }
+        }
+    }
+
+    .come_clients {
+        background-color: #0B7572;
+        height: 971px;
+        display: flex;
+        margin-bottom: 120px;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 212px;
+        margin-bottom: 120px;
+        flex-direction: column;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #FFFFFF;
+            width: 447px;
+            margin-left: 81px;
+            margin-top: 64px;
+        }
+
+        .come_clients-table {
+            margin-top: 48px;
+            margin-left: 0px;
+
+            img {
+                width: 687px;
+                height: 695px;
+            }
+        }
+    }
+
+    .delivery_stages {
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #363738;
+            margin-left: 39px;
+        }
+
+        .card_box {
+            display: grid;
+            grid-template-rows: 245px 245px 245px;
+            gap: 24px;
+            margin-bottom: 88px;
+
+            .card {
+                display: flex;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+                border-radius: 10px;
+                margin-left: 49px;
+                width: 641px;
+
+                img {
+                    margin-left: 96px;
+                    margin-top: 32px;
+                    display: none;
+                }
+
+                .card_text {
+                    width: 568px;
+                    margin-top: 32px;
+                    margin-left: 56px;
+
+                    strong {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 125%;
+                        color: #363738;
+                        display: inline-block;
+                        margin-bottom: 24px;
+                    }
+
+                    .underline {
+                        width: 86px;
+                        height: 3px;
+                        background-color: yellow;
+                        margin-bottom: 24px;
+                    }
+
+                    p {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .our_belivers {
+        margin-top: 120px;
+        margin-left: 39px;
+        margin-bottom: 230px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #363738;
+        }
+
+        .card_box {
+            display: grid;
+            grid-template-columns: 184px 184px;
+            grid-template-rows: 175px 175px 175px 175px;
+            gap: 80px 125px;
+            margin-left: 46px;
+
+            .line {
+                border: 1px solid #726b6b;
+                transform: rotate(90deg);
+                width: 183px;
+                height: 0px;
+                margin-top: 180px;
+                margin-left: 1003px;
+                margin-right: 73px;
+            }
+
+            .card {
+                max-width: 184px;
+                height: 183px;
+                margin-top: 90px;
+
+                img {
+                    margin-left: 53px;
+                }
+
+                strong {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 135%;
+                    text-align: center;
+                    color: #363738;
+                    margin-left: 53px;
+                    margin-top: 32px;
+                    margin-bottom: 14px;
+                    display: inline-block;
+                }
+
+                small {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    text-align: center;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+
+    .our_team {
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #363738;
+            margin-bottom: 100px;
+        }
+
+        .card_box {
+            display: grid;
+            grid-template-columns: 330px 300px;
+            grid-template-rows: 289px 289px;
+            gap: 24px 30px;
+            margin-left: 0;
+
+            .card {
+                display: flex;
+                height: 289px;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+                border-radius: 10px;
+                flex-direction: column;
+
+                .extreme_lane {
+                    background: #0B7572;
+                    height: 289px;
+                    width: 30px;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    margin-right: 30px;
+                    display: none;
+                }
+
+                .man {
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 40px;
+                    margin-top: 24px;
+                    margin-left: 90px;
+                }
+
+                .man_info {
+                    margin-top: 16px;
+                    padding-left: 50px;
+
+                    .social_media {
+                        display: flex;
+                        gap: 21px;
+                    }
+
+                    strong {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #363738;
+                        margin-right: 100px;
+                    }
+
+                    small {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+                    }
+
+                    .underline {
+                        border: 2px solid #FFCE50;
+                        width: 86px;
+                        height: 0px;
+                        background-color: yellow;
+                        border-radius: 5px;
+                        margin-top: 16px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            .card5 {
+                display: none;
+            }
+        }
+    }
+
+    .our_contacts {
+        margin-left: 0px;
+        margin-top: 130px;
+
+        .about_us2 {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+
+            .about_us_main {
+                margin-right: 0px;
+                margin-top: 94px;
+                margin-left: 39px;
+
+                h1 {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 125%;
+                    color: #363738;
+                    margin-bottom: 94px;
+                }
+
+                .card_box {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 44px 0;
+
+                    .card {
+                        display: flex;
+                        max-width: 224px;
+
+                        a {
+                            display: flex;
+                            text-decoration: none;
+
+                            img {
+                                margin-right: 36px;
+                            }
+
+                            .card_text {
+                                small {
+                                    font-family: 'PT Sans';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 150%;
+                                    color: #6B6B6C;
+                                }
+
+                                p {
+                                    font-family: 'Exo 2';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    color: #363738;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .about_us_additional_info {
+                .additation_info_table {
+                    table {
+                        background: #F9F9FB;
+                        border-radius: 5px;
+                        width: 100%;
+                        height: 383px;
+                        border-spacing: 63px;
+                        margin-top: 65px;
+
+                        tr {
+                            th {
+                                width: 443px;
+                                font-family: 'Exo 2';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 125%;
+                                color: #363738;
+                                border-bottom: 1px solid #e1e2e4;
+                            }
+
+                            td {
+                                font-family: 'PT Sans';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 125%;
+                                color: #6B6B6C;
+                                border-bottom: 1px solid #e1e2e4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .video_about_work {
+        margin-top: 60px;
+        margin-left: 39px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #363738;
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            margin-bottom: 40px;
+            width: 690px;
+        }
+
+        .video {
+            position: relative;
+
+            video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin-left: 0px;
+                width: 690px;
+                height: 443px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:376px) {
+    .about_us {
+        width: 100%;
+        display: flex;
+        background-color: #0B7572;
+        height: 766px;
+
+        .about_us-text {
+            width: 610px;
+            margin-left: 15px;
+            margin-top: 75px;
+
+            h1 {
+                font-family: 'Exo 2';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 125%;
+                color: #FFFFFF;
+                width: 344px;
+            }
+
+            p {
+                font-family: 'PT Sans';
+                margin-top: 40px;
+                margin-bottom: 40px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: white;
+                width: 525px;
+                margin-top: 32px;
+                margin-bottom: 32px;
+                width: 344px;
+            }
+
+            button {
+                border: none;
+                border-bottom: 3px solid yellow;
+                background-color: #0B7572;
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                color: white;
+            }
+
+            img {
+                width: 345px;
+                height: 253px;
+                margin-top: 40px;
+                opacity: 100;
+                display: block;
+            }
+        }
+
+        .about_us-picture {
+            display: none;
+            background-color: #0B7572;
+            height: 787px;
+            width: 832px;
+            position: relative;
+            margin-left: 219px;
+            display: none;
+
+            .about_us-img {
+                margin-top: 190px;
+                position: absolute;
+                left: -22.7%;
+            }
+        }
+    }
+
+    .about_us-bottom {
+        display: grid;
+        grid-template-columns: 286px;
+        grid-template-rows: 178px 178px 178px;
+        gap: 200px 0;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        height: 1100px;
+
+        .card {
+            margin-left: 0px;
+            display: flex;
+            flex-direction: column;
+            height: 178px;
+            width: 228px;
+
+            img {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: 32px;
+            }
+
+            .card-text {
+                width: 225px;
+
+                p {
+                    font-family: 'Exo 2';
+                    margin-bottom: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 135%;
+                    color: #363738;
+                    width: 218px;
+                }
+
+                small {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #6B6B6C;
+                    width: 286px;
+                }
+            }
+        }
+    }
+
+    .where_you_work {
+        margin-top: 100px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #363738;
+        }
+
+        p {
+            display: none;
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            width: 667px;
+        }
+
+        .radiotable_box {
+            display: flex;
+
+            .radiotable_numbers {
+                width: 281px;
+                margin-left: 140px;
+                margin-top: 90px;
+
+                .radiotable_button {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 281px;
+
+                    p {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 54px;
+                        color: #363738;
+                        width: auto;
+                    }
+
+                    small {
+                        margin-top: 50px;
+                    }
+
+                    .underline {
+                        width: 281px;
+                        height: 3px;
+                        background-color: yellow;
+                        border: 3px solid yellow;
+                    }
+                }
+            }
+
+            .work_radiotable {
+                .card {
+                    display: flex;
+                    margin-top: 40px;
+                    width: 345px;
+                    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+                    border-radius: 10px;
+                    margin-left: 16px;
+                    height: 150px;
+
+                    input {
+                        margin-left: 16px;
+                        margin-bottom: 98px;
+                        width: 24px;
+                        height: 24px;
+                    }
+
+                    .card_text {
+                        margin-left: 16px;
+                        width: 325px;
+                        margin-bottom: 48px;
+
+                        p {
+                            font-family: 'Exo 2';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #363738;
+                            margin-bottom: 16px;
+                            margin-top: 24px;
+                        }
+
+                        small {
+                            font-family: 'PT Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #6B6B6C;
+                            width: 325px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .why_with_me {
+        display: none;
+        background-image: url("/img/Rectangle7.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 1341px;
+        height: 453px;
+        margin-right: 180px;
+        position: relative;
+        margin-top: 100px;
+
+        h1 {
+            position: absolute;
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 125%;
+            color: #FFFFFF;
+            z-index: 9999;
+            width: 362px;
+            top: 40%;
+            left: 10%;
+        }
+    }
+
+    .why_with_me-bottom {
+        margin-top: 64px;
+        margin-left: 15px;
+        margin-bottom: 350px;
+
+        h1 {
+            display: block;
+            width: 341px;
+        }
+
+        .card_box {
+            margin-top: 0;
+            margin-left: 0;
+            display: grid;
+            grid-template-columns: 337px;
+            grid-template-rows: 75px 75px 75px 75px;
+            gap: 76px 0;
+            height: 600px;
+
+            .card {
+                display: flex;
+
+                img {
+                    margin-bottom: 0;
+                    width: 52px;
+                    height: 52px;
+                    margin-top: 10px;
+                }
+
+                .card_text {
+                    margin-left: 16px;
+                    width: 269px;
+                    margin-top: 12px;
+
+                    p {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 135%;
+                        color: #363738;
+                        margin-bottom: 16px;
+                        width: 269px;
+                        margin-top: 0;
+                        margin-bottom: 12px;
+                    }
+
+                    small {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+                        width: 269px;
+                    }
+                }
+            }
+        }
+    }
+
+    .do_work {
+        margin-left: 16px;
+        margin-top: 122px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 125%;
+            color: #363738;
+
+        }
+
+        p {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            margin-top: 32px;
+            width: 344px;
+        }
+
+        .radio {
+            display: block;
+            margin-left: 146px;
+            margin-top: 24px;
+        }
+
+        .card_box {
+            display: flex;
+            gap: 30px;
+
+            .card4 {
+                display: none;
+            }
+
+            .card {
+                margin-top: 56px;
+                width: 393px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+                border-radius: 10px;
+                width: 345px;
+                height: 394px;
+
+                img {
+                    width: 345px;
+                    height: 222px;
+                }
+
+                .card-text {
+                    margin-left: 32px;
+
+                    strong {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 135%;
+                        color: #363738;
+                        margin-top: 24px;
+                    }
+
+                    p {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+                        margin-top: 16px;
+                        width: 291px;
+                    }
+
+                    button {
+                        width: 92px;
+                        height: 17px;
+                        border: none;
+                        padding-bottom: 15px;
+                        border-bottom: 3px solid yellow;
+                        background-color: #FFFFFF;
+                        margin-top: 32px;
+                        margin-bottom: 42px;
+                    }
+                }
+            }
+        }
+    }
+
+    .come_clients {
+        background-color: #0B7572;
+        height: 640px;
+        display: flex;
+        margin-bottom: 120px;
+        width: 100%;
+        margin: 0;
+        margin-top: 212px;
+        margin-bottom: 120px;
+        height: 640px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 125%;
+            color: #FFFFFF;
+            width: 447px;
+            margin-left: 15px;
+            margin-top: 32px;
+            margin-bottom: 0;
+        }
+
+        .come_clients-table {
+            margin-top: 85px;
+
+            .come_clients-table-img1 {
+                display: block;
+                width: 345px;
+                height: 507px;
+                margin-left: 15px;
+                margin-top: -60px;
+            }
+
+            .come_clients-table-img2 {
+                display: none;
+            }
+        }
+    }
+
+    .delivery_stages {
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 125%;
+            color: #363738;
+            margin-left: 16px;
+            margin-bottom: 30px;
+        }
+
+        .card_box {
+            display: grid;
+            grid-template-rows: 245px 245px 245px;
+            gap: 134px;
+
+            .card {
+                display: flex;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+                gap: 0;
+                border-radius: 10px;
+                margin-left: 49px;
+                width: 306px;
+                height: 350px;
+
+                img {
+                    margin-left: 96px;
+                    margin-top: 32px;
+                }
+
+                .card_text {
+                    width: 241px;
+                    margin-top: 32px;
+                    margin-left: 56px;
+
+                    strong {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 125%;
+                        color: #363738;
+                        display: inline-block;
+                    }
+
+                    .underline {
+                        width: 86px;
+                        height: 3px;
+                        background-color: yellow;
+                        display: none;
+                    }
+
+                    p {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .our_belivers {
+        margin-top: 120px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        width: 100%;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 125%;
+            color: #363738;
+        }
+
+        .radio {
+            display: block;
+            display: flex;
+            margin-left: 162px;
+            margin-top: 150px;
+        }
+
+        .card_box {
+            display: grid;
+            grid-template-columns: 177px 177px;
+            grid-template-rows: 183px 183px;
+            gap: 100px 0;
+            margin-left: 0px;
+
+            .infinyty {
+                display: none;
+            }
+
+
+            .card {
+                max-width: 177px;
+                height: 183px;
+                margin-top: 90px;
+
+                img {
+                    margin-left: 46px;
+                }
+
+                strong {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 135%;
+                    text-align: center;
+                    color: #363738;
+                    margin-left: 46px;
+                    margin-top: 32px;
+                    margin-bottom: 14px;
+                    display: inline-block;
+                }
+
+                small {
+                    font-family: 'PT Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    text-align: center;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+
+    .our_team {
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 125%;
+            color: #363738;
+            margin-bottom: 100px;
+        }
+
+        .card_box {
+            display: grid;
+            grid-template-columns: 345px;
+            grid-template-rows: 156px 156px 156px;
+            gap: 50px 0px;
+            margin-left: 15px;
+
+            .card {
+                max-width: 345px;
+                display: flex;
+                height: 156px;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+                border-radius: 10px;
+
+                .extreme_lane {
+                    background: #0B7572;
+                    height: 210px;
+                    width: 51px;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    margin-right: 32px;
+                }
+
+                .man {
+                    width: 100px;
+                    height: 100px;
+                    margin-right: 0px;
+                    margin-top: 32px;
+                    margin-left: 36px;
+                }
+
+                .man_info {
+                    margin-top: -100px;
+                    margin-left: 120px;
+
+                    .social_media {
+                        display: flex;
+                        gap: 21px;
+                    }
+
+                    strong {
+                        font-family: 'Exo 2';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #363738;
+                        margin-right: 0;
+                    }
+
+                    small {
+                        font-family: 'PT Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #6B6B6C;
+                    }
+
+                    .underline {
+                        border: 2px solid #FFCE50;
+                        width: 86px;
+                        height: 0px;
+                        background-color: yellow;
+                        border-radius: 5px;
+                        margin-top: 16px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            .card5 {
+                display: none;
+            }
+
+            .card6 {
+                display: none;
+            }
+        }
+    }
+
+    .our_contacts {
+        margin-left: 0px;
+        margin-top: 130px;
+
+        .about_us2 {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+
+            .about_us_main {
+                margin-right: 0px;
+                margin-top: 94px;
+                margin-left: 39px;
+
+                h1 {
+                    font-family: 'Exo 2';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 125%;
+                    color: #363738;
+                    margin-bottom: 94px;
+                }
+
+                .card_box {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 44px 0;
+
+                    .card {
+                        display: flex;
+                        max-width: 224px;
+
+                        a {
+                            display: flex;
+                            text-decoration: none;
+
+                            img {
+                                margin-right: 36px;
+                            }
+
+                            .card_text {
+                                small {
+                                    font-family: 'PT Sans';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 150%;
+                                    color: #6B6B6C;
+                                }
+
+                                p {
+                                    font-family: 'Exo 2';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    color: #363738;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .about_us_additional_info {
+                .additation_info_table {
+                    table {
+                        background: #F9F9FB;
+                        border-radius: 5px;
+                        width: 345px;
+                        margin-left: 0px;
+                        height: 568px;
+                        border-spacing: 0px;
+                        margin-top: 65px;
+
+                        tr {
+                            display: flex;
+                            flex-direction: column;
+
+                            th {
+                                width: 283px;
+                                font-family: 'Exo 2';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 125%;
+                                color: #363738;
+                                padding-bottom: 24px;
+                                margin-bottom: 24px;
+                                border-bottom: 1px solid #e1e2e4;
+                            }
+
+                            td {
+                                font-family: 'PT Sans';
+                                width: 283px;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 125%;
+                                color: #6B6B6C;
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .video_about_work {
+        margin-top: 60px;
+        margin-left: 15px;
+
+        h1 {
+            font-family: 'Exo 2';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 125%;
+            color: #363738;
+
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-family: 'PT Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #6B6B6C;
+            margin-bottom: 0px;
+            width: 345px;
+        }
+
+        .video {
+            position: relative;
+
+            video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin-left: 0px;
+                width: 345px;
+                height: 340px;
+            }
+        }
+    }
+}
